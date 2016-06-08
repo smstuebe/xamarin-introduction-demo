@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Microsoft.ProjectOxford.Face;
@@ -17,7 +14,7 @@ namespace XamarinDemo
     {
         private string _status;
         private ImageSource _source;
-        private readonly FaceServiceClient _faceServiceClient = new FaceServiceClient(<CODE>);
+        private readonly FaceServiceClient _faceServiceClient = new FaceServiceClient("6f9743bb1ee84cd0a58e146afbedb149");
 
         public string Status
         {
