@@ -17,6 +17,7 @@ namespace XamarinDemo
     {
         private string _status;
         private ImageSource _source;
+        private readonly FaceServiceClient _faceServiceClient = new FaceServiceClient(<CODE>);
 
         public string Status
         {
