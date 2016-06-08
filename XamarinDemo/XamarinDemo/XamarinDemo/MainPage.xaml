@@ -3,29 +3,5 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:XamarinDemo"
              x:Class="XamarinDemo.MainPage">
-  <Grid>
-    <Grid.RowDefinitions>
-      <RowDefinition Height="*"></RowDefinition>
-      <RowDefinition Height="Auto"></RowDefinition>
-      <RowDefinition Height="Auto"></RowDefinition>
-    </Grid.RowDefinitions>
-    
-    <Image 
-      Source="{Binding Source}"
-      VerticalOptions="FillAndExpand" 
-      HorizontalOptions="FillAndExpand"/>
 
-    <Label 
-      Grid.Row="1"
-      Text="{Binding Status}"
-      FontSize="20"
-      HorizontalOptions="Center" />
-    
-    <Button
-      Grid.Row="2"
-      Text="Select Image"
-      Command="{Binding TakePhotoCommand}"
-      HorizontalOptions="Center" />
-    
-  </Grid>
 </ContentPage>
